@@ -19,8 +19,12 @@ const FirebaseProject = () => {
   };
   return (
     <View style={{flex: 1, justifyContent: 'center'}}>
+      <Text>Hello</Text>
       <Text>{data.Name}</Text>
       <Text>{data.password}</Text>
+      {/* <Text>{data.hobby[0]}</Text>
+      <Text>{data.hobby[1]}</Text>
+      <Text>{data.hobby[2]}</Text> */}
     </View>
   );
 };
