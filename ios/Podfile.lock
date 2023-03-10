@@ -996,11 +996,21 @@ PODS:
     - glog
   - react-native-blob-util (0.17.2):
     - React-Core
+  - react-native-camera (4.2.1):
+    - React-Core
+    - react-native-camera/RCT (= 4.2.1)
+    - react-native-camera/RN (= 4.2.1)
+  - react-native-camera/RCT (4.2.1):
+    - React-Core
+  - react-native-camera/RN (4.2.1):
+    - React-Core
   - react-native-charts-wrapper (0.5.11):
     - Charts (= 4.1.0)
     - React
     - SwiftyJSON (= 5.0)
   - react-native-pdf (6.6.2):
+    - React-Core
+  - react-native-text-recognition (1.0.0):
     - React-Core
   - react-native-view-shot (3.5.0):
     - React-Core
@@ -1112,6 +1122,10 @@ PODS:
   - SwiftAlgorithms (1.0.0)
   - SwiftyJSON (5.0.0)
   - TOCropViewController (2.6.1)
+  - VisionCamera (2.15.4):
+    - React
+    - React-callinvoker
+    - React-Core
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -1140,8 +1154,10 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - react-native-blob-util (from `../node_modules/react-native-blob-util`)
+  - react-native-camera (from `../node_modules/react-native-camera`)
   - react-native-charts-wrapper (from `../node_modules/react-native-charts-wrapper`)
   - react-native-pdf (from `../node_modules/react-native-pdf`)
+  - react-native-text-recognition (from `../node_modules/react-native-text-recognition`)
   - react-native-view-shot (from `../node_modules/react-native-view-shot`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
@@ -1161,6 +1177,7 @@ DEPENDENCIES:
   - RNImageCropPicker (from `../node_modules/react-native-image-crop-picker`)
   - RNImageToPdf (from `../node_modules/react-native-image-to-pdf`)
   - RNShare (from `../node_modules/react-native-share`)
+  - VisionCamera (from `../node_modules/react-native-vision-camera`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1228,10 +1245,14 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   react-native-blob-util:
     :path: "../node_modules/react-native-blob-util"
+  react-native-camera:
+    :path: "../node_modules/react-native-camera"
   react-native-charts-wrapper:
     :path: "../node_modules/react-native-charts-wrapper"
   react-native-pdf:
     :path: "../node_modules/react-native-pdf"
+  react-native-text-recognition:
+    :path: "../node_modules/react-native-text-recognition"
   react-native-view-shot:
     :path: "../node_modules/react-native-view-shot"
   React-perflogger:
@@ -1270,6 +1291,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-image-to-pdf"
   RNShare:
     :path: "../node_modules/react-native-share"
+  VisionCamera:
+    :path: "../node_modules/react-native-vision-camera"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1311,8 +1334,10 @@ SPEC CHECKSUMS:
   React-jsinspector: 9f7c9137605e72ca0343db4cea88006cb94856dd
   React-logger: 957e5dc96d9dbffc6e0f15e0ee4d2b42829ff207
   react-native-blob-util: 31b9463ef2efe90e841e7525d687ec69b1d71157
+  react-native-camera: 3eae183c1d111103963f3dd913b65d01aef8110f
   react-native-charts-wrapper: 4461b72f48e737a490e968bf2468cc0fd2281681
   react-native-pdf: 33c622cbdf776a649929e8b9d1ce2d313347c4fa
+  react-native-text-recognition: 51841db99caa890674e44ed6efbf2870b84f4161
   react-native-view-shot: 792829857bbb23a9c8acdad9a640554bdee397a3
   React-perflogger: af8a3d31546077f42d729b949925cc4549f14def
   React-RCTActionSheet: 57cc5adfefbaaf0aae2cf7e10bccd746f2903673
@@ -1335,6 +1360,7 @@ SPEC CHECKSUMS:
   SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   TOCropViewController: edfd4f25713d56905ad1e0b9f5be3fbe0f59c863
+  VisionCamera: c6356b309f7b8e185b7be2e703ec67bb35acf345
   Yoga: 5ed1699acbba8863755998a4245daa200ff3817b
 
 PODFILE CHECKSUM: d29fcafe62ab18ee7800779238cc86ad0418c291

@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     // flex: 1,
     // justifyContent: 'flex-end',
     alignItems: 'center',
-    backgroundColor: 'red',
+    // backgroundColor: 'red',
     marginTop: 25,
   },
   pdf: {
