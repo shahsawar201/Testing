@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-clipboard/clipboard": "^1.11.2",
     "@react-native-firebase/app": "^17.3.2",
     "@react-native-firebase/firestore": "^17.3.2",
     "react": "18.2.0",
@@ -19,9 +20,12 @@
     "react-native-image-crop-picker": "^0.39.0",
     "react-native-image-to-pdf": "^1.2.0",
     "react-native-pdf": "^6.6.2",
+    "react-native-pell-rich-editor": "^1.8.8",
     "react-native-share": "^8.2.1",
     "react-native-text-recognition": "^1.0.0",
-    "react-native-view-shot": "^3.5.0"
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-view-shot": "^3.5.0",
+    "react-native-webview": "^11.26.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

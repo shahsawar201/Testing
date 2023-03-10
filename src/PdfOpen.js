@@ -51,6 +51,6 @@ const styles = StyleSheet.create({
   pdf: {
     // flex: 1,
     width: Dimensions.get('window').width - 100,
-    height: Dimensions.get('window').height - 300,
+    height: Dimensions.get('window').height - 600,
   },
 });
