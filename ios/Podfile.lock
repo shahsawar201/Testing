@@ -1173,6 +1173,8 @@ PODS:
     - React
   - RNShare (8.2.1):
     - React-Core
+  - RNSVG (13.8.0):
+    - React-Core
   - SwiftAlgorithms (1.0.0)
   - SwiftyJSON (5.0.0)
   - TOCropViewController (2.6.1)
@@ -1231,6 +1233,7 @@ DEPENDENCIES:
   - RNImageCropPicker (from `../node_modules/react-native-image-crop-picker`)
   - RNImageToPdf (from `../node_modules/react-native-image-to-pdf`)
   - RNShare (from `../node_modules/react-native-share`)
+  - RNSVG (from `../node_modules/react-native-svg`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1352,6 +1355,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-image-to-pdf"
   RNShare:
     :path: "../node_modules/react-native-share"
+  RNSVG:
+    :path: "../node_modules/react-native-svg"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1422,6 +1427,7 @@ SPEC CHECKSUMS:
   RNImageCropPicker: 14fe1c29298fb4018f3186f455c475ab107da332
   RNImageToPdf: 43fd91d019b3ee8ae6aba7f2d8c40ca4a55088ff
   RNShare: eaee3dd5a06dad397c7d3b14762007035c5de405
+  RNSVG: c1e76b81c76cdcd34b4e1188852892dc280eb902
   SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   TOCropViewController: edfd4f25713d56905ad1e0b9f5be3fbe0f59c863
