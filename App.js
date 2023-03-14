@@ -7,8 +7,9 @@ const App = () => {
   useEffect(() => {
     LogBox.ignoreAllLogs();
   }, []);
-  return <PdfScanner />;
-  // <FirebaseProject />;
+  return <FirebaseProject />;
+
+  <PdfScanner />;
 };
 
 export default App;
